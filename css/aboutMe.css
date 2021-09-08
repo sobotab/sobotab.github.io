@@ -2,10 +2,7 @@ p {
 	font-family: "Calibri";
 }
 
-img.firstDayOfSchool {
+img {
 	height : 20%;
-	width : 20%;
-	margin-right : auto;
-	margin-left : auto;
-	opacity : .5;
+	width : 20%
 }
