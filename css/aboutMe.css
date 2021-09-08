@@ -1,11 +1,10 @@
 p {
 	font-family: "Calibri";
-	font-color: "green";
 }
 
 img {
-	max-height : 100%;
-	max-width : 100%;
+	max-height : 20%;
+	max-width : 20%;
 	margin-right : auto;
 	margin-left : auto;
 }
