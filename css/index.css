@@ -1,0 +1,31 @@
+img {
+	border-radius: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+a {
+	color: white;
+	background-color: green;
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #29A624;
+}
+
+p {
+	text-align: center;
+}
+
+#next {
+	align: right;
+}
+
+#previous {
+	align: left;
+}
