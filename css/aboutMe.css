@@ -2,3 +2,10 @@ p {
 	font-family: "Calibri";
 	font-color: "green";
 }
+
+img {
+	max-height : 100%;
+	max-width : 100%;
+	margin-right : auto;
+	margin-left : auto;
+}
