@@ -7,8 +7,8 @@ img {
 }
 
 a {
-	color: white;
-	background-color: green;
+	color: black;
+	background-color: lightblue;
 	font-size: 20pt;
 	text-decoration: none;
 }
@@ -18,14 +18,22 @@ a:hover {
 	background-color: #29A624;
 }
 
-p {
+h1 {
 	text-align: center;
 }
 
 #next {
-	align: right;
+	display: block;
+	float: left;
+	width: auto;
 }
 
 #previous {
-	align: left;
+	display: block;
+	float: right;
+	width: auto;
+}
+
+.links {
+	flex-direction: column;
 }
