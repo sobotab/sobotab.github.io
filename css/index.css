@@ -19,14 +19,28 @@ img {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	align-self: flex-start;
 }
 
 .button {
 	text-align: center;
 	background: #DCAE96;
 	color: black;
-	border: 3px solid whited;
+	border: 3px solid white;
 	border-radius: 15px;
 	text-decoration: none;
+}
+
+#previous {
+	margin-right: 200px;
+}
+
+#next {
+	margin-left: 200px;
+}
+
+h1 {
+	background: #DCAE96;
+	color: black;
+	border: 3px solid white;
+	border-radius: 15px;
 }
