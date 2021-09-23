@@ -4,8 +4,15 @@
 		<title>About Ben Sobota</title>
 		<meta charset = "utf-8">
 		<link href="../css/aboutMe.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	</head>
 	<body>
+		<div id="nav-placeholder"></div>
+		<script>
+			$(function(){
+  				$("#nav-placeholder").load("nav-bar.html");
+			});
+		</script>
 		<h1>Ben Sobota</h1>
 		<div class="facts">
 			<!-- A list of fun facts -->
@@ -28,6 +35,5 @@
 				<ul>
 			</div>
 		</div>
-		<a href="https://sobotab.github.io/">Back</a>
 	</body>
 </html>

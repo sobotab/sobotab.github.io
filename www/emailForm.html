@@ -2,8 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     </head>
     <body>
-        
+        <div id="nav-placeholder"></div>
+		<script>
+			$(function(){
+  				$("#nav-placeholder").load("nav-bar.html");
+			});
+		</script>
     </body>
 </html>
