@@ -3,11 +3,16 @@
 	<head>
 		<title>Ben Sobota</title>
 		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			$(function(){
+  				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 		<img src="https://sobotab.github.io/img/imageBen.jpg" alt="Ben">
 	</body>
 </html>
