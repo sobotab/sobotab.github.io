@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	flex: 1 100%;
+}
+
+#nav-bar-div {
+    display: flex;
+    flex: 1 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 10px solid lightblue;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#nav-bar-div a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    background: #896978;
+    text-decoration: none;
+    flex: 1;
+    border: 2px solid black;
+}
+
+#nav-bar-div a:hover {
+    background: #8b7f85;
+    border: 2px solid white;
+}

@@ -1,46 +1,15 @@
 body {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	background: lightblue;
-	font-size: 20pt;
-	font: "Times New Roman", Times, serif;
-}
-
-img {
-	border-radius: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
-}
-
-.top {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-}
-
-.button {
-	text-align: center;
-	background: #DCAE96;
-	color: black;
-	border: 3px solid white;
-	border-radius: 15px;
-	text-decoration: none;
-}
-
-#previous {
-	margin-right: 200px;
-}
-
-#next {
-	margin-left: 200px;
+	background: #ddd1b4;
 }
 
 h1 {
-	background: #DCAE96;
-	color: black;
-	border: 3px solid white;
-	border-radius: 15px;
+	align-self: center;
 }
+
+img {
+	border-radius: 20px;
+	height:20%;
+	width:20%;
+	align-self: center;
+}
+

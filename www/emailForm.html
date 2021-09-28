@@ -3,13 +3,25 @@
     <head>
         <meta charset="utf-8">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/emailForm.css" rel="stylesheet">
     </head>
     <body>
-        <div id="nav-placeholder"></div>
-		<script>
-			$(function(){
-  				$("#nav-placeholder").load("nav-bar.html");
-			});
-		</script>
+        <div class="wrapper">
+            <div id="nav-placeholder"></div>
+            <script>
+                $(function(){
+                    $("#nav-placeholder").load("nav-bar.html");
+                });
+            </script>
+            <div id="form-div">
+                <div id="small-input-div">
+                    <label for="user_fname">First name:</label>
+                    <input type="text" id="user_fname" name="fname">
+                    <label for="user_lname">Last name:</label>
+                    <input type="text" id="user_lname" name="lname">
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,11 +1,12 @@
 body {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: stretch center;
 	justify-content: center;
 	background: lightblue;
 	font-size: 20pt;
 	font-family: "Times New Roman", Times, serif;
+	flex: 1;
 }
 
 a {
@@ -14,13 +15,13 @@ a {
 	border-radius: 5px;
 	color: lightblue;
 	background: #DCAE96;
-	width: 25%;
 	text-align: center;
-	
 }
 
 .facts {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .list {
@@ -29,4 +30,5 @@ a {
 	border: 10px solid white;
 	background: #DCAE96;
 	border-radius: 15px;
+	text-align: center;
 }
