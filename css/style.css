@@ -12,6 +12,7 @@
     border: 10px solid lightblue;
     border-radius: 10px;
     align-self: center;
+    margin: 1px;
 }
 
 #nav-bar-div a {
