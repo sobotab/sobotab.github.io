@@ -1,5 +1,9 @@
-#form-div {
-    display: grid;
-    margin-top: 3%;
+#contact-form {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
+p {
+    color: red;
+}
