@@ -1,6 +1,7 @@
 let User_ID="user_enkWKyFhTz4LYcC40AIa0"
 let Access_Token="62f0bc3d7f354a23b46900e3a3e6b0ca"
 
+//All of the domains
 
 var domainText=`AAA
 AARP
@@ -1504,6 +1505,8 @@ ZW
 let domainList=domainText.split("\n");
 
 window.onload = function() {
+    //Sends the email from input on the form and does error checking.
+
     document.getElementById("contact-form").addEventListener('submit', function(event) {
         event.preventDefault();
         if (works()) {
@@ -1518,6 +1521,8 @@ window.onload = function() {
 }
 
 function works() {
+    //Does error checking by checking for null values and proper format
+
     let returnValue=true;
     const error_list = [];
     if (document.getElementsByName("user_fname")[0].value.length==0) {
@@ -1545,6 +1550,8 @@ function works() {
 }
 
 function checkEmail(email) {
+    //checks to make sure that the email has the proper domain and formatting
+
     if (email.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
         emailDomain=email.split('.')[1]
     } else {
@@ -1554,6 +1561,8 @@ function checkEmail(email) {
 }
 
 function handle(error) {
+    //Puts the errors on the screen
+
     let errorDiv = document.getElementById("error-div");
     errorDiv.innerHTML="";
     for(let i=0; i<error.length; i++) {
