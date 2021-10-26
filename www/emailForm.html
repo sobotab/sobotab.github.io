@@ -1,43 +1,24 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init('user_enkWKyFhTz4LYcC40AIa0');
-            })();
-        </script>
-    
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="../src/emailForm.js"></script>
-        <link href="../css/style.css" rel="stylesheet">
-        <link href="../css/emailForm.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="wrapper">
-            <div id="nav-placeholder"></div>
-            <script>
-                $(function(){
-                    $("#nav-placeholder").load("nav-bar.html");
-                });
-            </script>
-            <div id="form-div">
-                <form id="contact-form">
-                    <label>First Name:</label>
-                    <input type="text" name="user_fname">
-                    <label>Last Name:</label>
-                    <input type="text" name="user_lname">
-                    <label>Phone Number:</label>
-                    <input type="tel" name="user_phone">
-                    <label>Email:</label>
-                    <input type="email" name="user_email">
-                    <label>Message:</label>
-                    <textarea name="user_message"></textarea>
-                    <div id="error-div"></div>
-                    <input type="submit" value="Send">
-                </form>
-            </div>
-        </div>
-    </body>
-</html>
+<div class="wrapper">
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav-bar.html");
+        });
+    </script>
+    <div id="form-div">
+        <form id="contact-form">
+            <label>First Name:</label>
+            <input type="text" name="user_fname">
+            <label>Last Name:</label>
+            <input type="text" name="user_lname">
+            <label>Phone Number:</label>
+            <input type="tel" name="user_phone">
+            <label>Email:</label>
+            <input type="email" name="user_email">
+            <label>Message:</label>
+            <textarea name="user_message"></textarea>
+            <div id="error-div"></div>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
