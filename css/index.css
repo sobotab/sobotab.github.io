@@ -37,8 +37,9 @@ a {
 }
 
 .img-fluid {
-	max-height: 25vh;
-	
+	max-height: 50vh;
+	margin: auto;
+  	display: block;
 }
 
 
