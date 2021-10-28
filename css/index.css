@@ -36,6 +36,9 @@ img {
 
 #navbar a {
 	height: 25vh;
+	font-size: 2vw;
+	color: black;
+	border: 2% solid black;
 }
 
 .proj {

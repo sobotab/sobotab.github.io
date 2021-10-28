@@ -1,8 +1,10 @@
-$(document).ready(function() {
-    var top1 = $('#home').offset().top-10;
-    var top2 = $('#about-me').offset().top-10;
-    var top3 = $('#projects').offset().top-10;
-    var top4 = $('#contact').offset().top-10;
+setTimeout(() => {$(document).ready(function() {
+    var top1 = $('#home').offset().top;
+    console.log(top1);
+    var top2 = $('#about-me').offset().top;
+    console.log(top2);
+    var top3 = $('#projects').offset().top;
+    var top4 = $('#contact').offset().top;
 
     var selectColor="lightgreen";
     var color = "white";
@@ -32,4 +34,4 @@ $(document).ready(function() {
             $('#nav-contact').css('background-color', selectColor);
         }
     });
-});
+});}, 2000);
