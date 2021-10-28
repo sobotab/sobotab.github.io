@@ -1,12 +1,3 @@
-section {
-	height: 100vh;
-	overflow: hidden;
-}
-
-#home {
-	height: 50vh;
-}
-
 #navbar {
 	margin: 0px;
 	padding: 0px;
@@ -30,17 +21,20 @@ section {
 	margin: 0px;
 }
 
-a {
-	font-size: 20pt;
-	color: black;
-	height: 25%;
+img {
+	margin: auto;
+	max-height: 75vh;
 }
 
-.img-fluid {
-	max-height: 50vh;
-	margin: auto;
-  	display: block;
+.side-nav {
+	height: 100vh;
 }
+
+.side-nav-item {
+	height: 25vh;
+}
+
+
 
 
 

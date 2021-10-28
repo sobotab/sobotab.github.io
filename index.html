@@ -33,42 +33,64 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-10">
-				<section id="home">
+				<div id="home" class="row">
 					<script>
 						$(document).ready(function () {
 							$('#home').load('www/home.html');
 						});
 					</script>
-				</section>
-				<section id="about-me">
+				</div>
+				<div id="about-me" class="row">
 					<script>
 						$(document).ready(function () {
 							$('#about-me').load('www/aboutMe.html');
 						});
 					</script>
-				</section>
-				<section id="projects">
+				</div>
+				<div id="projects" class="row">
 					<script>
 						$(document).ready(function () {
 							$('#projects').load('www/projects.html');
 						});
 					</script>
-				</section>
-				<section id="contact">
+				</div>
+				<div id="contact" class="row">
 					<script>
 						$(document).ready(function () {
 							$('#contact').load('www/emailForm.html');
 						});
 					</script>
-				</section>
+				</div>
 			</div>
 			<div id="nav-div" class="col-2">
-				<nav id="navbar" class="navbar-nav ml-auto" style="position: fixed;">
+				<nav class="navbar navbar-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+				<div class="collapse" id="navbarToggleExternalContent">
+					<ul id="side-nav" class="navbar-nav mr-auto">
+						<li class="nav-item side-nav-item">
+							<a class="nav-link" href="#home">Previous Student</a>
+						</li>
+						<li class="nav-item side-nav-item">
+							<a class="nav-link" href="#about-me">Next Student</a>
+						</li>
+						<li class="nav-item side-nav-item">
+							<a class="nav-link" href="#projects">Course Site</a>
+						</li>
+						<li class="nav-item side-nav-item">
+							<a class="nav-link" href="#contact">Course Site</a>
+						</li>
+					</ul>
+				</div>
+				<!--nav id="navbar" class="navbar-nav ml-auto" style="position: fixed;">
 					<a id="nav-home" href="#home">Welcome</a>
 					<a id="nav-about-me" href="#about-me">About Me</a>
 					<a id="nav-projects" href="#projects">Projects</a>
 					<a id="nav-contact" href="#contact">Contact Me</a>
-				</nav>
+				</nav-->
 			</div>
 		</div>
 	</div>
