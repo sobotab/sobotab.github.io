@@ -9,6 +9,7 @@ $(document).ready(function() {
 
     $(document).scroll(function () {
         var scrollPos = $(document).scrollTop();
+        console.log(scrollPos);
         if (scrollPos >= top1 && scrollPos < top2) {
             $('#nav-home').css('background-color', selectColor);
             $('#nav-about-me').css('background-color', color);
