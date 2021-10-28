@@ -1,8 +1,9 @@
 setTimeout(() => {$(document).ready(function() {
+    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
     var top1 = $('#home').offset().top-10;
     var top2 = $('#about-me').offset().top-10;
     var top3 = $('#projects').offset().top-10;
-    var top4 = $('#contact').offset().top-10;
+    var top4 = $('#contact').offset().top-500;
 
     var selectColor="lightgreen";
     var color = "white";

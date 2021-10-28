@@ -1,18 +1,54 @@
-<div class="wrapper">
-    <div id="form-div">
-        <form id="contact-form">
-            <label>First Name:</label>
-            <input type="text" name="user_fname">
-            <label>Last Name:</label>
-            <input type="text" name="user_lname">
-            <label>Phone Number:</label>
-            <input type="tel" name="user_phone">
-            <label>Email:</label>
-            <input type="email" name="user_email">
-            <label>Message:</label>
-            <textarea name="user_message"></textarea>
-            <div id="error-div"></div>
-            <input type="submit" value="Send">
-        </form>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ben Sobota</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/emailForm.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MJ7DK0QW01"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MJ7DK0QW01');
+    </script>
+    <script src="../src/emailForm.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <a href="../index.html" class="btn btn-primary btn-lg btn-block" role="button">Back</a>
+        <div id="form-div">
+            <form id="contact-form">
+                <label>First Name:</label>
+                <input type="text" name="user_fname">
+                <label>Last Name:</label>
+                <input type="text" name="user_lname">
+                <label>Phone Number:</label>
+                <input type="tel" name="user_phone">
+                <label>Email:</label>
+                <input type="email" name="user_email">
+                <label>Message:</label>
+                <textarea name="user_message"></textarea>
+                <div id="error-div"></div>
+                <input type="submit" value="Send">
+                <p>Emails sent to sobotab@udel.edu</p>
+            </form>
+        </div>
     </div>
-</div>
+</body>
+</html>

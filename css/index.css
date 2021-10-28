@@ -21,7 +21,7 @@
 	margin: 0px;
 }
 
-img {
+#profile-image {
 	margin: auto;
 	max-height: 75vh;
 }
@@ -54,6 +54,7 @@ img {
 }
 
 .section {
+	margin-bottom: 10%;
 	min-height: 100vh;
 }
 
@@ -77,5 +78,15 @@ h2 {
 	font-size: 3vw;
 }
 
+.footer-image {
+	max-width: 25.5vw;
+	margin: auto;
+}
 
+#contact {
+	min-height: 33vh;
+}
 
+#nav-home {
+	background-color: lightgreen;
+}
