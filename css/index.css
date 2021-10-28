@@ -53,5 +53,13 @@ img {
 	border-left: hidden;
 }
 
+.section {
+	min-height: 100vh;
+}
+
+#home {
+	min-height: 50vh;
+}
+
 
 
